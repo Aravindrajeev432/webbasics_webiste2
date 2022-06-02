@@ -397,3 +397,133 @@ text-align: center;
     background: #38383a;
     color:white ;
 }
+.thirdcontainer{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    
+}
+.thirdbackground{
+    width: 100%;
+    height: 100%;
+    background: url(image/bg-seal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.thirdsub1{
+    width: 1140px;
+    height: 250px;
+    
+    margin-top: 80px;
+    text-align: center;
+
+}
+.thirdsub1 h3{
+    font-size: 12px;
+    font-family: 'barlow';
+    letter-spacing: 2px;
+    color: #5f5544
+
+}
+.thirdsub1 h2{
+
+    font-size: 16px;
+    font-family: 'barlow';
+    letter-spacing: 3px;
+    color: #5f5544;
+}
+.thirdsub1 h1{
+    font-size: 34px;
+    font-family: 'barlow';
+    letter-spacing: 8px;
+    color: #38383a;
+}
+.thirdsub1 p{
+    font-size: 15px;
+    font-family: 'barlow';
+    color: #38383a;  
+}
+.thirdsub2{
+    width: 1140px;
+    height: 420px;
+   
+    display: flex;
+}
+.thirdboxes{
+    
+    height: 100%;
+    width: 285px;
+}
+#box1{
+    background: url(image/c21global.jpg);
+    width: 265px;
+    height: 265px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 25px;
+}
+#box2{
+    background: url(image/c21espanol.jpg);
+    width: 265px;
+    height: 265px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 25px;
+}
+#box3{
+    background: url(image/c21commercial.jpg);
+    width: 265px;
+    height: 265px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 25px;
+}
+#box4{
+    background: url(image/c21luxury.jpg);
+    width: 265px;
+    height: 265px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 25px;
+}
+.thirdboxes h1{
+    font-size: 22px;
+    font-family: 'barlow';
+    color: #38383a;
+    margin: 0px;
+    padding: 0px;
+}
+.thirdboxes p{
+    font-size: 15px;
+    font-family: 'barlow';
+    color: #38383a;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+}
+.thirdboxes input{
+    margin-top: 20px;
+    font-family: barlow;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #38383a;
+    background: white;
+    border: #38383a solid 1px;
+    height: 30px;
+    
+    text-transform: uppercase;
+
+}
+.thirdboxes input:hover{
+    color: white;
+    background: #38383a;
+}
