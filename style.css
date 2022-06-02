@@ -1,0 +1,212 @@
+/*
+    color: rgba(242, 208, 158, 0.743);
+
+      font-family: barlow;
+*/
+body{
+    background: url(image/background_6_16x9.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-family: BarlowSemiCondensed,Helvetica,Arial,sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: #252526;
+    display: flex;
+    position: fixed;
+    
+}
+.navimg{
+width: 15%;
+height: 100%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.navimg h1{
+    color: rgba(242, 208, 158, 0.743);
+    font-size: 28px;
+    margin: 0;
+    font-weight: bold;
+}
+.navlist{
+width: 75%;
+height: 100%;
+
+}
+.navlist ul{
+margin: 0px;
+padding: 0px;
+height: 100%;
+
+}
+.navlist ul li{
+    display: inline-block;
+height: 100%;
+color: white;
+box-sizing: border-box;
+padding-top: 33px;
+font-size: 11px;
+margin-left: 20px;
+letter-spacing: 1px;
+
+}
+.navlist ul li:hover{
+    color: rgba(242, 208, 158, 0.743);
+}
+.navcontact{
+width:10% ;
+height: 100%;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+color: rgba(242, 208, 158, 0.743);
+}
+.navcontact p{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.homebox1{
+    width: 100%;
+    height: 100vh;
+  
+}
+/*
+hbsb1--homeboxsub1 -1sub div
+*/
+.homeboxsub1{
+    height: 165px;
+    width: 585px;
+    margin-left: 110px;
+    position: absolute;
+    margin-top: 115px;
+    display: flex;
+    background: url(image/relentless-moves_3.svg);
+}
+.hbs1{
+    width: 10%;
+    height: 165px;
+    padding-bottom: 25px;
+   
+    box-sizing: border-box;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.hbs1 p{
+    color:#7F8285;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+
+}
+.hbs1 sup{
+    vertical-align: baseline;
+    font-size: 10px;
+}
+.hbs2{
+    color: white;
+    font-size: 50px;
+    letter-spacing: 4px;
+    font-family: barlow;
+    padding: 0;
+    line-height: 70px;
+    margin: 10px;
+    margin-top: -22px;
+
+}
+.hbs2 h1 {
+    color: white;
+    font-size: 50px;
+    letter-spacing: 4px;
+    font-family: BarlowSemiCondensed-SemiBold;
+}
+.hbs3{
+width: 30%;
+height: 165px;
+
+}
+.searchbox{
+    width: 100%;
+    height: 150px;
+    
+    position: absolute;
+    margin-top: 455px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.blackbar{
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 30px;
+    width: 810px;
+    margin-top: -50px;
+}
+.searchbar{
+width: 810px;
+height: 100px;
+
+display: flex;
+}
+.searchloc{
+    background: white;
+    width: 5%;
+    height:50% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(242, 208, 158, 0.743);
+    font-size: 13px;
+}
+.searcharea{
+    background-color: red;
+    width: 75%;
+    height:50% ;
+}
+.searcharea input{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+   border: 0;
+    font-size: 14px;
+    
+}
+.searchc21{
+background-color: white;
+    width: 20%;
+    height:50% ;
+    display: flex;
+justify-content: center;
+align-items: center;
+border-left: rgba(252, 226, 98, 0.709) solid 1px;
+}
+.searchc21 input{
+    background-color: #C9BB9B ;
+    height: 25px;
+    width: 75%;
+    border: 0;
+    font-size: 10px;
+    letter-spacing: 1px;
+
+}
+.searchc21 input:hover{
+background-color: #BDAF87;
+}
+.blackbar p{
+    color: white;
+    font-size: 10px;
+    text-decoration: underline;
+    float:right;
+    padding-right: 10px;
+}
