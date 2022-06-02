@@ -2,6 +2,9 @@
     color: rgba(242, 208, 158, 0.743);
 
       font-family: barlow;
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 */
 body{
     background: url(image/background_6_16x9.jpeg);
@@ -12,13 +15,15 @@ body{
     padding: 0;
     margin: 0;
     font-family: BarlowSemiCondensed,Helvetica,Arial,sans-serif;
+    background-attachment: fixed;
 }
 .navbar{
     width: 100%;
     height: 80px;
     background-color: #252526;
     display: flex;
-    position: fixed;
+    /*position: fixed;*/
+    z-index: -5;
     
 }
 .navimg{
@@ -81,6 +86,7 @@ color: rgba(242, 208, 158, 0.743);
 .homebox1{
     width: 100%;
     height: 100vh;
+    
   
 }
 /*
@@ -90,10 +96,11 @@ hbsb1--homeboxsub1 -1sub div
     height: 165px;
     width: 585px;
     margin-left: 110px;
-    position: absolute;
+   /* position: fixed;*/
     margin-top: 115px;
     display: flex;
     background: url(image/relentless-moves_3.svg);
+    z-index: -5;
 }
 .hbs1{
     width: 10%;
@@ -140,12 +147,13 @@ height: 165px;
     width: 100%;
     height: 150px;
     
-    position: absolute;
+   /* position: fixed;*/
     margin-top: 455px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    z-index: -5;
 }
 .blackbar{
     background-color: rgba(0, 0, 0, 0.65);
@@ -182,6 +190,7 @@ display: flex;
     font-size: 14px;
     
 }
+
 .searchc21{
 background-color: white;
     width: 20%;
@@ -209,4 +218,182 @@ background-color: #BDAF87;
     text-decoration: underline;
     float:right;
     padding-right: 10px;
+}
+.firstcontainer{
+    width: 100%;
+    height: 930px;
+    background: blue;
+    z-index: 10;
+    display: flex;
+}
+.firstsub1{
+background:url(image/tabbed-BG.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 930px;
+width: 930px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.firstsub2{
+background:url(image/agent-walking.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 930px;
+width: 510px;
+}
+.subcontent{
+
+    width: 500px;
+    height:600px;
+display: flex;
+flex-direction: column;
+
+}
+.sub1{
+
+height: 300px;
+width:500px ;
+text-align: center;
+}
+.sub1 h1{
+    font-family: 'barlow';
+    font-size: 34px;
+    color: #38383a;
+    letter-spacing: 8px;
+}
+.sub1 h2{
+    font-family: barlow;
+    letter-spacing: 2px;
+    color: #5f5544;
+    font-size: 16px;
+}
+.sub1 p{
+    font-family: barlow;
+    font-size: 12px;
+    color: #38383a;
+    line-height: 20px;
+    word-break: break-word;
+
+}
+.sub2{
+
+    height: 300px;
+    width:500px ;
+}
+.sub2 h1{
+    color: #38383a;
+    font-size: 25px;
+    font-family: barlow;
+    font-weight: bolder;
+
+}
+.sub2 p{
+    font-size: 12px;
+    font-family: barlow;
+    color: #38383a;
+    line-height: 15px;
+}
+#first{
+    margin-left: 48px;
+    width:452px;
+    height: 146px;
+
+    border-left: #847252 solid 2px;
+    padding-left: 10px;
+}
+.sub2 input{
+    background: white;
+    border: #847252 solid 1px;
+    width: 65px;
+    height: 30px;
+    font-family: 'barlow';
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    color: #847252;
+    transform: translate(350px, -90px);
+
+}
+.sub2 input:hover{
+   background-color:#847252;
+   color: white;
+}
+#second{
+    margin-left: 48px;
+    border-left: #847252 solid 2px;
+    padding-left: 10px;
+}
+#third{
+    margin-left: 48px;
+    border-left: #847252 solid 2px;
+    padding-left: 10px;
+}
+.secondcontainer{
+    width: 100%;
+    height: 640px;
+    background: url(image/Screenshot\ 2022-06-02\ at\ 11.15.45\ AM.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.secondsub{
+    width: 600px;
+    height: 150px;
+  
+    margin-top: 137px;
+    margin-left: 140px;
+    position: absolute;
+}
+.secondsub h1{
+    color: white;
+    font-family: barlow;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    z-index: 5;
+    position: relative;
+}
+.secondsub h1:nth-child(3)
+{
+    margin-top: -27px;
+    margin-left: 29px;
+}
+.secsub{
+    background:url(image/Screenshot\ 2022-06-02\ at\ 6.57.54\ PM.png);
+  background-position: center;
+  background-size: 600px 130px;
+  background-repeat: no-repeat;
+    width:600px;
+    height:100px;
+    position: absolute;
+    z-index: 0;
+    margin-left:29px ;
+    margin-top: 65px;
+}
+.secondsub p{
+    color: white;
+    position: absolute;
+    font-size: 14px;
+    font-family: 'barlow';
+    padding-left: 32px;
+}
+.secondsub input{
+    margin-top: 80px;
+    margin-left: 529px;
+    background: white;
+    color: #5f5544;
+    width: 100px;
+    border: 0;
+    height: 30px;
+    font-size: 12px;
+    font-family: 'barlow';
+    letter-spacing: 1px;
+}
+.secondsub input:hover{
+    background: #38383a;
+    color:white ;
 }
