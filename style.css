@@ -527,3 +527,207 @@ text-align: center;
     color: white;
     background: #38383a;
 }
+footer{
+    width: 100%;
+    height: 715px;
+    background-color: #252526;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footersub1{
+
+height: 80%;
+width:1100px;
+display: flex;
+align-items: center;
+}
+.subleft{
+
+    height: 480px;
+    width: 30%;
+}
+.leftsub1{
+    width: 260px;
+    height: 400px;
+    background-color:#847252 ;
+
+     margin: 0px 15px 0px 15px;
+}
+.leftsub1 ul{
+padding-top: 40px;
+}
+.leftsub1 ul li{
+    list-style: none;
+   
+    width: 160px;
+    height: 35px;
+    font-family: 'barlow';
+    font-size: 15px;
+    color: white;
+}
+ul li h1{
+    margin: 0px;
+    padding: 0px;
+    font-size: 17px;
+    font-weight: bolder;
+    margin-top:10px ;
+}
+.fa-instagram{
+    color:#252526;
+    font-size: 21px;
+}
+.fa-facebook-square{
+    color:#252526;
+    font-size: 21px;
+}
+.fa-twitter{
+    color:#252526;
+    font-size: 21px;
+}
+.fa-youtube{
+    color:#252526;
+    font-size: 21px;
+}
+.subright{
+
+    height: 480px;
+    width: 70%;
+    display: flex;
+}
+.rightsub1{
+width: 40%;
+height: 100%;
+
+display: flex;
+flex-direction: column;
+}
+.rightsubbox{
+    width: 100%;
+ 
+  height: 33.3%;
+}
+.rightsub1 h1{
+    font-size: 15px;
+    padding-left: 0px;
+    color: #beaf87;
+
+}
+.rightsub1 ul{
+    padding: 0;
+
+}
+.rightsub1 ul li{
+    list-style: inside;
+    padding: 0px;
+    font-size: 13px;
+    margin: 0px;
+    color: white;
+    line-height: 18px;
+    font-weight: lighter;
+}
+.rightsub2{
+
+width: 60%;
+height: 100%;
+
+}
+.rightsub2part1{
+
+
+    height: 50%;
+    width: 100%;
+}
+.rightsub2part1 ul{
+margin: 0px;
+padding: 0px;
+}
+.rightsub2part1 h1{
+margin: 0px;
+font-size: 15px;
+padding-left: 0px;
+color: #beaf87;
+padding-top: 15px;
+}
+.rightsub2part1 p{
+color: #847252;
+font-family: barlow;
+font-size: 12px;
+}
+.rightsub2part1 ul li{
+    list-style: lower-roman;
+    padding: 0px;
+    font-size: 11px;
+    margin: 0px;
+    color: white;
+    line-height: 28px;
+    font-weight: lighter;
+    display: inline-block;
+    width: 150px;
+
+}
+
+
+.footersub2{
+    height: 20%;
+    width: 1140px;
+    background: url(/image/21.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 60px;
+    display: flex;
+}
+.footersubbox1{
+width:30%;
+height: 100%;
+
+}
+.footersubbox2{
+
+    width:70%;
+height: 100%;
+
+
+}
+.fsubbutton{
+
+    width: 230px;
+    height: 30px;
+    color: #beaf87;
+    background-color: #252526;
+    border: #beaf87 solid 1px;
+    font-size: 11px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 8px;
+    margin-left: 35px;
+}
+.fsubbutton:hover{
+    background-color: #beaf87;
+    color: white;
+}
+.fsubcen{
+    background: url(/image/Century21-logo.svg);
+    width: 200px;
+    height: 60px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    margin-left: 35px;
+
+}
+.footersubbox2 h1{
+
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-size: 17px;
+    font-family: 'barlow';
+  text-decoration: underline;
+}
+.footersubbox2 p{
+color: #a7a7a7;
+font-size: 12px;
+line-height: 20px;
+}
